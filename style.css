@@ -1,0 +1,146 @@
+:root{
+    --light-brown: #AA6E44;
+    --dark-brown: #3b2815;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #3b2815;
+}
+
+h1 {
+    color: white;
+}
+
+
+#button{
+    float: right;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3b2815;
+
+}
+
+.info > #number{
+    margin-left: 10px;
+}
+
+.divmail{
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 374px;
+
+}
+
+textarea {
+    background-color:  #AA6E44;
+}
+
+input {
+    text-align: center;
+    background-color:  #AA6E44;
+    border: 0;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+
+    background-color:  #AA6E44;
+}
+
+input:placeholder-shown {
+    text-align: left;
+}
+
+button{
+    border-radius: 5px;
+    outline-style: none;
+    color: var(--dark-brown);
+
+}
+
+.info {
+
+    margin: auto;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-brown);
+    border-radius: 5px;
+}
+
+.mailInfo {
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: center;
+    background-color: #AA6E44;
+    border-radius: 5px;
+    height: 22px;
+    width: 442px;
+}
+
+.mail {
+    color: #3b2815;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+
+.nmb {
+    justify-content: center;
+    align-content: center;
+}
+
+.divaddy {
+    display: flex;
+    flex-direction: row;
+    background-color: #3b2815;
+}
+
+#addressArea {
+    border-radius: 5px;
+
+}
+
+#mailArea {
+    border-radius: 5px;
+}
+
+
+.area{
+    margin-top: 5%;
+    justify-content: space-evenly;
+    display:inline-block;
+    position:relative;
+    width: 436px;
+}
+
+
+
+button {
+    border: 0;
+    color: black;
+
+    border-radius: 5px;
+
+}
+
+#copy {
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+#domain {
+    color: white;
+}
