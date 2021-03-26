@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" ></script>
+</head>
+<body>
+<div class="flex" >
+    <div class="name" >
+        <h1>Cookie PAS Address Jigger</h1>
+    </div>
+
+    <section class="divaddy" >
+        <div class="daddy">
+            <div class="info" >
+                <input id="address" placeholder="Input your address" type="address" />
+                <input id="number" type="number" placeholder="Amount to generate" />
+                <button onclick="clickedBtn()"  id="button" >Submit</button>
+            </div>
+
+            <div class="area">
+                <textarea id="addressArea" style="resize: none;" cols="60" rows="20" readonly></textarea>
+                <button onclick="CopyAddressFromArea()" id="copy">Copy</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="divmail" >
+        <div class="mailInfo" >
+            <div class="gmail">
+                <input id="mail"placeholder="email" onchange="onChange()"  />
+            </div>
+            <div id="spanmail">
+                <span id="domain">@gmail.com</span>
+            </div>
+        </div>
+        <div class="area">
+            <textarea id="mailArea" style="resize: none;" cols="60" rows="20" readonly></textarea>
+            <button onclick="CopyMailFromArea()" id="copy">Copy</button>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
